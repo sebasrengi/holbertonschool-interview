@@ -5,7 +5,6 @@
     may contain keys to the other boxes.
 """
 
-
 def canUnlockAll(boxes):
     """canUnlockAll
     Keyword arguments:
