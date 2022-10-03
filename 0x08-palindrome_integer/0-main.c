@@ -32,8 +32,3 @@ int main(int ac, char **av)
 
     return (EXIT_SUCCESS);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-P
