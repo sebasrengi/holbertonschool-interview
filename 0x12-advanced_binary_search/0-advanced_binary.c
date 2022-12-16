@@ -1,11 +1,3 @@
-holbertonschool-interview/0x12-advanced_binary_search/0-advanced_binary.c
-@TheMasterTz
-TheMasterTz all files
-Latest commit 15378c1 on Sep 2
- History
- 1 contributor
-71 lines (62 sloc)  1.36 KB
-
 #include "search_algos.h"
 
 /**
