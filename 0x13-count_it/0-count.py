@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """
-Write a recursive function that queries the Reddit API, parses the title of
-all hot articles, and prints a sorted count of given keywords
-(case-insensitive, delimited by spaces. Javascript should count as javascript,
-but java should not).
+0x13. Count it! - Write a recursive function that queries the Reddit API,
+                  parses the title of all hot articles, and prints a sorted
+                  count of given keywords (case-insensitive, delimited by
+                  spaces.
+                  Javascript should count as javascript, but java should not).
 """
 
 import requests
@@ -55,3 +56,4 @@ def count_words(subreddit, word_list, kw_cont={}, next_pg=None, reap_kw={}):
         sorted_res = sorted(sorted_abc, key=lambda x: (-x[1], x[0]))
         for res in sorted_res:
             if res[1] > 0:
+                print('{}: {}'.format(res[0], res[1]))
